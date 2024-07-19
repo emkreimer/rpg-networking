@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RPGNetwork")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de38f57734d67b8b1e3358fd371a9f5e55d9ef04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abae3d50cc06a1e19e1b1dfa41c8a2235d754ecc")]
 [assembly: System.Reflection.AssemblyProductAttribute("RPGNetwork")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RPGNetwork")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

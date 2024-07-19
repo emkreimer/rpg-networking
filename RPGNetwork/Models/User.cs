@@ -1,18 +1,14 @@
 using System.ComponentModel.DataAnnotations;
+using Project.Models.Enums;
 
-namespace Project.Models;
-
-public class User
+namespace Project.Models
 {
-    public Guid id { get; set; }
-    public string name { get; set; }
-    public string email { get; set; }
-
-    public User() 
+    public class User
     {
-        name = "Guest";
-        email = "guest@rpgnetwork.com";
+        public Guid? Id { get; set; }
+        public string? Name { get; set; }
+        public string? Email { get; set; }
+        public List<Character>? Characters;
+
     }
-
-
 }

@@ -29,9 +29,9 @@ namespace RPGNetwork.Controllers
         }
 
         [HttpDelete]
-        public string DeleteUser([FromBody] User user)
+        public User DeleteUser([FromBody] User user)
         {
-            return user.name;
+            return user;
         }
 
 
